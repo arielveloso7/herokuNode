@@ -1,0 +1,37 @@
+POST http://localhost:9000/api/persons
+Content-Type: application/json
+
+    {
+        "name":"raul",
+        "number":"41546"
+    }
+
+##################3
+
+POST http://localhost:9000/api/persons
+Content-Type: application/json
+
+    {
+        "name":"Arto Hellas",
+        "number":"41546"
+    }
+
+#####
+POST http://localhost:9000/api/persons
+Content-Type: application/json
+
+    {
+        "name":"",
+        "number":""
+    }   
+
+
+#####
+POST http://localhost:9000/login
+Content-Type: application/json
+
+    {
+        "user":"",
+        "password":""
+    }        
+

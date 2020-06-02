@@ -1,0 +1,1 @@
+node -r esm app.js
